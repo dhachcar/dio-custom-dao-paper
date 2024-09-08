@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetsDAO - Ajuda a Pessoas em Situação de Rua</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="blue">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo">StreetsDAO</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#missao">Missão</a></li>
+                    <li><a href="#visao">Visão</a></li>
+                    <li><a href="#valores">Valores</a></li>
+                    <li><a href="#governanca">Governança</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="missao" class="section scrollspy">
+            <h3>Missão</h3>
+            <p>A StreetsDAO tem a missão de mobilizar uma comunidade global em torno de soluções inovadoras para reduzir
+                a população de rua...</p>
+        </section>
+
+        <section id="visao" class="section scrollspy">
+            <h3>Visão</h3>
+            <p>Ser uma plataforma descentralizada e transparente que aloca recursos com eficiência e equidade,
+                transformando vidas de forma tangível.</p>
+        </section>
+
+        <section id="valores" class="section scrollspy">
+            <h3>Valores</h3>
+            <ul class="collection">
+                <li class="collection-item"><strong>Transparência:</strong> Todos os processos e transações são visíveis
+                    na blockchain.</li>
+                <li class="collection-item"><strong>Inclusão:</strong> Qualquer pessoa pode participar da DAO,
+                    independentemente de seu capital financeiro.</li>
+                <li class="collection-item"><strong>Sustentabilidade:</strong> O foco é criar soluções de longo prazo
+                    para a população em situação de rua.</li>
+                <li class="collection-item"><strong>Inovação Social:</strong> Usar a tecnologia para criar novas formas
+                    de ajudar e melhorar a sociedade.</li>
+            </ul>
+        </section>
+
+        <section id="governanca" class="section scrollspy">
+            <h3>Governança</h3>
+            <p>A StreetsDAO utiliza tokens de governança chamados StreetsTokens, que permitem aos detentores participar
+                de decisões importantes...</p>
+        </section>
+    </main>
+
+    <footer class="page-footer blue">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">StreetsDAO</h5>
+                    <p class="grey-text text-lighten-4">Juntos podemos fazer a diferença.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; 2024 StreetsDAO
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(elems);
+        });
+    </script>
+</body>
+
+</html>
