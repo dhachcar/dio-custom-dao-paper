@@ -14,3 +14,15 @@ section {
 .collection-item {
   font-size: 1.2rem;
 }
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.sticky {
+    background-color: #1e2f47; /* Cor mais escura quando sticky */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
